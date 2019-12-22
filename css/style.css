@@ -1,0 +1,355 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CODE CSS DU CONTENU DE LA PAGE */
+#contenu {
+    width: 60%;
+    margin: auto;
+    margin-top: 4%;
+    line-height: 20pt;
+}
+
+/* CODE CSS DU MENU DEROULANT */
+nav > ul {
+    margin-left: 8%;
+    padding: 0px;
+}
+
+nav > ul > li {
+    float: left;
+    position: relative;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+.submenu {
+    display: none;
+}
+
+nav {
+    width: 100%;
+    background-color: #375D81;
+    font-size: 96%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+nav > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav > ul > li > a {
+    padding: 20px 25px;
+    color: #FFF;
+}
+
+nav li:hover .submenu {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 100000;
+}
+
+.submenu li {
+    border: 1px solid #C0C0C0;
+    background-color: #375D81;
+}
+
+.submenu li a {
+    padding: 17px 30px;
+    font-size: 95%;
+    color: #FFF;
+    width: 250px;
+}
+
+nav > ul > li:hover {
+    border-top: 5px solid#BBB;
+    background-color: rgba(220, 220, 220, 0.15);
+}
+
+nav > ul > li:hover a {
+    padding: 16px 25px 20px 25px;
+}
+
+.flag {
+    margin-bottom: -5px;
+}
+
+/* CODE CSS DE LA BANNIERE ET DU LOGO */
+.logo {
+    width: 30%;
+    margin-left: 1%;
+    margin-bottom: -16%;
+}
+
+.banniere {
+    width: 60%;
+    margin-left: 36%;
+    margin-top: -1%;
+    margin-bottom: -1%;
+}
+
+/* CODE CSS DU BOUTON HAUT DE PAGE */
+#scrollUp {
+    position: fixed;
+    bottom: 10px;
+    right: -100px;
+    opacity: 0.5;
+}
+
+/* CODE CSS DE LA CARTE */
+iframe {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 700px;
+    border: none;
+}
+
+/* CODE CSS DE LA PHOTO (Damien) */
+.photo {
+    display: block;
+    margin: auto;
+}
+
+/* CODE CSS DES ECRITURES */
+p {
+    text-align: justify;
+    font-size: 95%;
+}
+
+h2 {
+    font-family: 'Allerta', sans-serif;
+    color:#375D81;
+    font-size: 275%;
+    line-height: 30pt;
+    margin-left: -2%;
+}
+
+h3 {
+    font-family: 'Muli', sans-serif;
+    color:#5e7d9a;
+    font-size: 190%;
+    line-height: 25pt;
+}
+
+ul > li > a {
+    font-size: 95%;
+}
+
+/* CODE CSS DES LIENS DU TEXTE */
+.lienstxt {
+    text-decoration: none;
+}
+
+.lienstxt:hover {
+    text-decoration: underline;
+}
+
+p > a {
+    font-size: 98%;
+}
+
+#apretudes ul {
+    font-size: 96%;
+}
+
+/* CODE CSS DU PIED DE PAGE */
+hr {
+    width: 90%;
+    margin: auto;
+}
+
+/* CODE CSS DU FOOTER */
+#nomGroupe {
+    color: white;
+    float: right;
+    margin: 1% 5%;
+    display: block;
+    height: 100%;
+    background-color: #22252A;
+}
+
+#infoProjet {
+    color:white;
+    float: left;
+    margin: 1% 5%;
+    display: block;
+    height: 100%;
+    background-color: #22252A;
+}
+
+#nomGroupe > p, #infoProjet > p {
+    font-size: 105%;
+    line-height: 27pt;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#aideUser {
+    color:white;
+    font-size: 105%;
+    display: block;
+    height: 100%;
+    background-color: #22252A;
+}
+
+#footer {
+    background-color: #22252A;
+    display: block;
+    height: 100%;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #808080;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+  color: #375D81;
+}
+
+.fb, .twi, .yt {
+    list-style-type: none;
+    display: inline-block;
+    width:30px;
+    height:30px;
+    background:#3B3B3B;
+    border-radius:50%;
+    border:none;
+    padding-top: 0.5rem;
+    margin-left: 1em;
+    padding-right: 5px;
+}
+
+.fb:hover {
+    background-color: #3b5998;
+}
+
+.twi:hover {
+    background-color: #00aced;
+}
+
+.yt:hover {
+    background-color: #c4302b;
+}
+
+.imgres {
+    padding-left: 5px;
+    width: 18px;
+    height: 18px;
+}
+
+.p {
+    text-align: center;
+}
+
+/* CSS tableaux */
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+}
+
+th, td {
+    font-size: 95%;
+    border: 1px solid black;
+}
+
+th{
+    background-color: #cacaca;
+}
+
+/* CSS IMAGES-LIENS */
+.logoE {
+    width: 10%;
+    padding: 2%;
+}
+
+.logoI {
+    width: 20%;
+    padding: 2%;
+    margin-bottom: -30px;
+}
+
+.logoI:hover{
+    box-shadow: 2px 2px 1px 1px silver;
+}
+
+.logoE:hover{
+    box-shadow: 2px 2px 1px 1px silver;
+}
+
+/*  CSS RESPONSIVE */
+
+/* Smartphones portrait */
+@media screen and (max-device-width : 639px) and (orientation:portrait) {
+    .menu{display:none;}
+    #contenu{margin-left:40px; width:80%;}
+    h2{margin-left:-10px;}
+    table{margin-left:-25px; width:80%;}
+    .table3{margin:auto;}
+    iframe{margin-left:-20px; width:110%;}
+    .logo{width:40%;}
+    .banniere{width:59%; margin-left:41%; margin-top:-1%;}
+    .logoE{width:30%;}
+    .logoI{width:30%;}
+}
+
+/* Smartphones landscape */
+@media screen and (min-device-width : 640px) and (max-device-width : 851px) and (orientation:landscape){
+    .menu{display:none;}
+    #contenu{margin-left:50px; width:80%;}
+    h2{margin-left:-10px;}
+    table{margin:auto; width:80%;}
+    iframe{margin:auto; width:110%;}
+    .logo{width:40%;}
+    .banniere{width:59%; margin-left:41%; margin-top:-1%;}
+    .logoE{width:20%;}
+    .logoI{width:20%;}
+}
+
+/* Ipad portrait */
+@media screen and (min-device-width : 760px) and (max-device-width : 1023px) and (orientation:portrait) {
+    nav{font-size: 90%;}
+    nav > ul{margin-left: 0%;}
+    nav > ul > li > a {padding: 15px 20px;}
+    #contenu{margin-left:10%;width:80%}
+    h3{margin-left:2%}
+    .logoE{width:15%;}
+}
+
+/* Ipad landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
+and (orientation : landscape) {
+    nav > ul > li > a {padding: 12px 20px;}
+    #contenu{margin-left:10%; width:80%;}
+    h2{margin-left:-20px;}
+
+}
+
+/* petits écrans de pc */
+@media screen and (min-device-width:900px) and (max-device-width:1399px){
+    nav{font-size:90%}
+    nav > ul{margin-left:0%}
+    nav > ul > li > a {padding: 15px 15px;}
+}
+
+@media screen and (min-device-width:1400px) and (max-device-width:1690px){
+    nav > ul{margin-left:1%;}
+}
