@@ -1,6 +1,6 @@
 /*jslint browser: true*/
 /*global $, jQuery*/
-jQuery(function () {
+(function($) {
     "use strict";
     $(function () {
         $(window).scroll(function () {  //Fonction pour déscendre la page
@@ -25,4 +25,4 @@ jQuery(function () {
                 .animate({scrollTop: $(target).offset().top -70}, 1000);
         });
     });
-});
+})(jQuery);
